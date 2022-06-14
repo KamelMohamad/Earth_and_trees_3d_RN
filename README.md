@@ -1,70 +1,25 @@
-# Getting Started with Babylon React Native
+# Earth and Trees 3d 
+this is a POC project for loading, viewing and interacting with 3d scenes in React Native project using Babylon.
 
-This sample repo is intended to help users get started using Babylon React Native to create React Native applications using Babylon.js.
+- The used Earth 3d model is downloaded from Nasa website, you can find it here https://solarsystem.nasa.gov/resources/2393/earth-3d-model/
+- For the tree I used "Low Poly Tree" (https://skfb.ly/ooBRz) by Šimon Ustal which is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- I optimized both models to be used on mobile devices using [Blender](https://www.blender.org/)
 
-## Required Tools
-- [node.js](https://nodejs.org/)
-- Android
-    - [Android Studio](https://developer.android.com/studio/)
-- iOS
-    - [Xcode](https://developer.apple.com/xcode/resources/)
-    - [cocoapods](https://cocoapods.org/)
+# this project is based on the Babylon React native sample
 
-## 1. Setup React Native Development Environment
+you can find the main sample [Here](https://github.com/BabylonJS/BabylonReactNativeSample), for more informating about how to setup the development environment please check their readme file.It is recommended to read through their readme file first then continue reading this one.
 
-Follow the instructions on [React Native's documentation for setting up your development environment](https://reactnative.dev/docs/environment-setup/). Be sure to select "React Native CLI quickstart" instead of "Expo CLI quickstart" since we currently do not support the usage of Expo. 
+# How to run the project 
 
-## 2. Clone the Repo 
+## Android
+- clone the repo
+- open the terminal and  cd to the project folder and type ```yarn```
+- next run the server by typing ```yarn start```
+- to run the project on android type ```yarn run android```, please note that you need extra configuration if you plan to run the project on android emulator, you can find the instructions for doing that [here](https://github.com/BabylonJS/BabylonReactNativeSample/blob/main/docs/ANDROID_EMULATOR.md) 
 
-```
-git clone https://github.com/BabylonJS/BabylonReactNativeSample.git
-```
-
-## 3. Project Setup
-
-From the repo root folder, restore the npm packages by running:
-
-```
-cd BabylonReactNativeSample
-npm install
-```
-
-### iOS Only 
-
-When building for iOS, it will also be required to install the pods for the project. Go to the iOS project folder and run `pod install`.
-
-```
-cd ios
-pod install
-cd ..
-```
-
-### Android Emulator Only
-
-In order to use Babylon React Native with the Android Emulator, the emulator must be configured with GLES3. Follow these [instructions](docs/ANDROID_EMULATOR.md).
-
-## 4. Try It Out
-
-From your repo root folder, run:
-
-```
-npm run ios
-```
-or
-```
-npm run android
-```
-
-If you want to run the application using physical devices, please follow the [React Native Run on Device](https://reactnative.dev/docs/running-on-device) documentation.
-
-## 5. Add Your Code
-
-Once the project is running, open `App.tsx` using your favorite code editor (we recommend using [vscode](https://code.visualstudio.com/)). Under `EngineScreen.useEffect`, you can setup your Babylon scene the same way you do when using the [Babylon.js Playground](https://www.babylonjs-playground.com/).
-
-## More Information
-
-[How to create this project from scratch](CREATE.md)
-
-## Additional Documentation
-
-[Babylon React Native](https://github.com/BabylonJS/BabylonReactNative)
+## IOS 
+- clone the repo
+- open the terminal and  cd to the project folder and type ```yarn```
+- Go to the iOS project folder and run ```pod install```
+- next run the server by typing ```yarn start```
+- run on IOS by opening another terminal window and typing ```yarn run ios```
