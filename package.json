@@ -15,7 +15,7 @@
     "@babylonjs/react-native": "^1.0.1",
     "@babylonjs/react-native-iosandroid-0-65": "^1.0.1",
     "react": "17.0.2",
-    "react-native": "0.65.2",
+    "react-native": "0.65.3",
     "react-native-permissions": "^3.3.1"
   },
   "devDependencies": {
