@@ -1,5 +1,8 @@
 # Earth and Trees 3d 
+
 this is a POC project for loading, viewing and interacting with 3d scenes in React Native project using Babylon.
+
+![Alt text](screenshot.png?raw=true "Optional Title")
 
 - The used Earth 3d model is downloaded from Nasa website, you can find it here https://solarsystem.nasa.gov/resources/2393/earth-3d-model/
 - For the tree I used "Low Poly Tree" (https://skfb.ly/ooBRz) by Šimon Ustal which is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
